@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("assets/images/backimg.jpg");
+    height: 110vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+}
+
+.main .box {
+    height: 110vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    background-color: black;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+    height: 62px;
+    
+
+
+
+
+}
+
+nav img {
+    width: 134px;
+    z-index: 1;
+    position: relative;
+    margin-top: 30px;
+    margin-left: -60px;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+.topbut{
+    margin-top: 30px;
+
+}
+
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    flex-direction: column;
+    padding: 0px 33px;
+
+}
+
+.hero>:nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero>:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(23, 23, 23, 0.021);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+
+
+}
+
+.btn-red {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 3px 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    height: 56px;
+    font-weight: 550;
+
+
+}
+
+.btn-red-sm {
+    background-color: rgb(229, 9, 20);
+    color: white;
+}
+
+.herobut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.6);
+    color: white;
+    padding: 5px 140px 8px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 40px;
+    font-weight: 400;
+    border: 1px solid rgba(143, 127, 127, 0.6);
+
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.secimg img {
+    width: 425px;
+    position: relative;
+    z-index:10;
+
+
+
+}
+
+.secimg {
+    position: relative;
+    top: 10px;
+    height: 500px;
+
+
+}
+
+.secimg video {
+    position: absolute;
+    top: 62px;
+    z-index: -1;
+    right: 56px;
+    width: 300px;
+}
+
+.first div :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first div :nth-child(3) {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fst {
+    display: flex;
+    flex-direction: column;
+}
+
+.secimg3 video {
+    position: absolute;
+    top: 100px;
+    z-index: -1;
+    right: 16px;
+    width: 320px;
+
+}
+
+.secimg3 img {
+    top: 80px;
+    left: 70px;
+    width: 500px;
+
+}
+
+.secimg1 {
+    position: relative;
+    top: 10px;
+    height: 500px;
+}
+
+.secimg1 img {
+    width: 35vw;
+    position: relative;
+    left: 100px;
+    top: 30px;
+
+}
+
+.secimg1 video {
+    position: absolute;
+    top: 102px;
+    z-index: -1;
+    left: 160px;
+    width: 350px;
+
+
+}
+
+.secimg2 {
+    top: 80px;
+    right: 50px;
+
+}
+
+.secimg4 img {
+    top: 90px;
+    left: -30px;
+    scale: 1.2;
+
+
+}
+
+.a {
+    z-index: 1;
+    margin-left: 70px;
+
+}
+
+.faq h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgb(51, 49, 49);
+    max-width: 71vw;
+    align-items: center;
+    padding: 26px;
+    margin: 10px auto;
+    color: white;
+    font-size: 24px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s ease-out;
+
+}
+
+.faqbox:hover {
+    background-color: rgb(87, 82, 82);
+}
+
+.faq svg {
+    filter: invert(1);
+}
+
+.ready h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mail input {
+    background-color: rgba(23, 23, 23, 0.6);
+    color: white;
+    border: 1px solid rgb(99, 94, 94);
+    cursor: pointer;
+    border-radius: 4px;
+    height: 52px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+button.red{
+    border: none;
+}
+
+.mail {
+    margin-bottom: 80px;
+}
+footer{
+    color:rgba(255, 255, 255, 0.7);
+    max-width: 60vw;
+    margin: auto;
+}
+.que{
+    text-align: center;
+    font-size: 16px;
+}
+.footeritem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70vw;
+    margin-top: 40px;
+    row-gap: 20px;
+
+}
+footer a{
+    color:rgba(255, 255, 255, 0.7) ;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer{
+    height: 60vh;
+    margin-top: 50px;
+    
+}
+.footer span{
+    font-size: 16px;
+}
+select{
+    background-color: white;
+    margin-top: 40px;
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: rgba(23, 23, 23, 0.5);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+
+}
+.net{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    
+
+
